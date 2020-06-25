@@ -9,7 +9,7 @@ module Operation
     end
 
     def build(*args)
-      # let devs use platform specific classes dirrectly
+      # let devs use platform specific classes directly
       if name.split('::').size > 1
         new(*args)
       else
